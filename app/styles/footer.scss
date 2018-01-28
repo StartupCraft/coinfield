@@ -1,0 +1,128 @@
+footer{
+  font-family: $main-font;
+  background-color: $cfgray;
+}
+
+.newsletter {
+  position: relative;
+  padding-top: 10px;
+  width: 90%;
+}
+.newsletter .preamble .title {
+  color: white;
+}
+.newsletter .preamble p {
+  font-size:1.20em !important;
+  color: white;
+  opacity: .75;
+}
+.newsletter form {
+  position: relative;
+}
+.newsletter form div {
+  position: relative;
+}
+.newsletter form div input {
+  height: 47px;
+  background: white;
+  border: none;
+  border-radius: 35px;
+  /*box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);*/
+  font-family: 'lato', sans-serif;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.newsletter form div button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 47px;
+  /*background: #3bd2a2;*/
+
+  background: $pallete_one;
+  color: white;
+  border: none;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.newsletter form div .rules {
+  color: white;
+  opacity: .65;
+}
+
+
+.footer-body{
+  padding-top:30px;
+  padding-bottom:60px;
+}
+.footer-logo{
+  max-width: 160px;
+}
+.footer-column{
+  color: $footer_links;
+  font-size: 14px;
+}
+.footer-column a{
+  color: $footer_links;
+}
+
+.footer-column li:first-child{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-column ul, .footer-column li{ 
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.copyright{
+  padding-top: 20px;
+}
+.logo-container{
+  text-align: left; 
+  padding-left: 22px;
+}
+.logo-container-mobile{
+  display: none;
+  margin-top:60px;
+}
+.social-icons {
+  text-align: right;
+  a {
+    background-color: #FFF;
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.05);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 0.3rem;
+    border-radius: 5px;
+    color: $pallete_two;
+    transition: all 0.3s ease;
+    &:hover {
+      text-decoration: none;
+      color: $cfgray;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .logo-container{
+    display: none;
+  }
+  .logo-container-mobile{
+    display: block;
+  }
+  .newsletter{
+    width:100%;
+  }
+  .social-icons {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}

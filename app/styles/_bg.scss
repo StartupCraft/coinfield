@@ -1,0 +1,40 @@
+$bgshome: (
+"/images/herobg/1.jpg"
+);
+
+$bghome: nth($bgshome, random(length($bgshome)));
+
+
+$bgsabout: (
+"/images/herobg/2.jpg"
+);
+
+$bgabout: nth($bgsabout, random(length($bgsabout)));
+
+
+$bgscontact: (
+"/images/herobg/1.jpg"
+);
+
+$bgcontact: nth($bgscontact, random(length($bgscontact)));
+
+
+$bgssecurity: (
+"/images/herobg/4.jpg"
+);
+
+$bgsecurity: nth($bgssecurity, random(length($bgssecurity)));
+
+
+$bgsgeneral: (
+"/images/herobg/5.jpg"
+);
+
+$bggeneral: nth($bgsgeneral, random(length($bgsgeneral)));
+
+
+$bgsgeneral1: (
+"/images/herobg/6.jpg"
+);
+
+$bggeneral1: nth($bgsgeneral1, random(length($bgsgeneral1)));

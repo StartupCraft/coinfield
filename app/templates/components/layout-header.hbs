@@ -1,0 +1,58 @@
+<div class="nav-menu fixed-top top-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+          <a class="navbar-brand" href="/">
+            <img src="/images/logo-white.png" class="img-fluid logo" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                {{#link-to 'home' class="nav-link"}}Home{{/link-to}}
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/market/overview">Markets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/market/charts">Charts</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/support/tickets">Tickets</a>
+                  <a class="dropdown-item" href="/support/knowledge-center">Knowledge Center</a>
+                  <a class="dropdown-item" href="/support/faq">FAQ</a>
+                  <a class="dropdown-item" href="/support/trading-fees">Trading Fees</a>
+                  <a class="dropdown-item" href="/support/transfer-fees">Transfer Fees</a>
+                  <a class="dropdown-item" href="/support/most-secure-bitcoin-exchange-canada">Security</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Company</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/company/canadian-bitcoin-cryptocurrency-exchange">About Us</a>
+                  <a class="dropdown-item" href="/company/contactus">Contact Us</a>
+                  <a class="dropdown-item" href="/company/terms">User Agreement</a>
+                  <a class="dropdown-item" href="/company/privacy">Privacy Policy</a>
+                  <a class="dropdown-item" href="/company/pr">Press Release</a>
+                  <a class="dropdown-item" href="/company/media-kit">Press & Media</a>
+                  <a class="dropdown-item" href="https://medium.com/@CoinField" target="_blank">Blog</a>
+                </div>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="/users/login">Login</a> </li>
+              <li class="nav-item"><a href="/users/signup" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Sign Up</a></li>
+            </ul>
+            <span class="font-weight-bold proudly-canadian"><img src="/images/canada-flag.png"/>
+              <span class="proudly-canadian-text">Proudly Canadian</span>
+            </span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{yield}}

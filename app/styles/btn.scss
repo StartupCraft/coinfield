@@ -1,0 +1,111 @@
+.btn {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.375rem 1.35rem;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  color: $pallete_two;
+}
+
+.btn-primary {
+  border-radius: 3px;
+  background: -moz-linear-gradient(top, $pallete_three 0%, $pallete_two 100%);
+  background: -webkit-linear-gradient(top, $pallete_three 0%, $pallete_two 100%);
+  background: linear-gradient(to bottom, $pallete_three 0%, $pallete_two 100%);
+  font-weight: 500;
+  padding: 0.6rem 2rem;
+  border: 0;
+  &:hover, &:focus, &:active {
+    background: -moz-linear-gradient(top, $pallete_two 0%, $pallete_two 100%);
+    background: -webkit-linear-gradient(top, $pallete_two 0%, $pallete_two 100%);
+    background: linear-gradient(to bottom, $pallete_two 0%, $pallete_two 100%);
+    color: #FFF;
+  }
+  &:not([disabled]):not(.disabled) {
+    &.active, &:active {
+      background: -moz-linear-gradient(top, $pallete_two 0%, $pallete_two 100%);
+      background: -webkit-linear-gradient(top, $pallete_two 0%, $pallete_two 100%);
+      background: linear-gradient(to bottom, $pallete_two 0%, $pallete_two 100%);
+      color: #FFF;
+    }
+  }
+}
+
+.show > .btn-primary.dropdown-toggle {
+  background: -moz-linear-gradient(top, $pallete_two 0%, $pallete_two 100%);
+  background: -webkit-linear-gradient(top, $pallete_two 0%, $pallete_two 100%);
+  background: linear-gradient(to bottom, $pallete_two 0%, $pallete_two 100%);
+  color: #FFF;
+}
+
+.btn-light {
+  border-radius: 3px;
+  background: #FFF;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+  font-size: 14px;
+  font-weight: 500;
+  color: $pallete_two;
+  margin: 0.5rem;
+  padding: 0.7rem 1.6rem;
+  line-height: 1.8;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+  padding: 0.8rem 1rem;
+  font-size: 15px;
+}
+
+
+
+.btn-signup {
+  /*float: right;*/
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 1rem 1.25rem;
+  border: 0;
+  background-color: $pallete_four;
+  color: #fff;
+  font-size: 14px;
+  background: -moz-linear-gradient(top, $pallete_four 0%, $pallete_five 100%);
+  background: -webkit-linear-gradient(top, $pallete_four 0%, $pallete_five 100%);
+  background: linear-gradient(to bottom, $pallete_four 0%, $pallete_five 100%);
+  &:hover, &:focus, &:active {
+    background: -moz-linear-gradient(top, $pallete_six 0%, $pallete_six 100%);
+    background: -webkit-linear-gradient(top, $pallete_six 0%, $pallete_six 100%);
+    background: linear-gradient(to bottom, $pallete_six 0%, $pallete_six 100%);
+    color: #FFF;
+  }
+  &:not([disabled]):not(.disabled) {
+    &.active, &:active {
+      background: -moz-linear-gradient(top, $pallete_six 0%, $pallete_six 100%);
+      background: -webkit-linear-gradient(top, $pallete_six 0%, $pallete_six 100%);
+      background: linear-gradient(to bottom, $pallete_six 0%, $pallete_six 100%);
+      color: #FFF;
+    }
+  }
+}
+.btn-signup{
+  color: #fff !important;
+}
+
+.show > .btn-signup.dropdown-toggle {
+  background: -moz-linear-gradient(top, $pallete_six 0%, $pallete_six 100%);
+  background: -webkit-linear-gradient(top, $pallete_six 0%, $pallete_six 100%);
+  background: linear-gradient(to bottom, $pallete_six 0%, $pallete_six 100%);
+  color: #FFF;
+}
+
+
+
+
+@media (max-width: 460px) {
+
+  .btn-signup {
+    float: none;
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,70 @@
+
+
+
+
+.cf-spark{
+	padding: 4px;
+	/*    background-color:;*/
+	margin-right: 70px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: $main-font;
+	display:inline-block;
+	max-width:400px;
+
+}
+
+.home-market-charts{
+}
+
+.mini-charts{
+	background-color:$bgcolor;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.cf-spark .market{
+	color:$textcolora;
+	font-size: 13px;
+	font-weight: 500;
+	margin-right: 12px;
+	display: inline-block;	
+}
+.cf-spark .change{
+	color:$textcolora;
+	font-size: 11px;
+}
+.cf-spark .up{
+	font-family: $main-font;
+	color: $up;
+	font-weight: bold;
+}
+.cf-spark .down{
+	font-family: $main-font;
+	color: $down;
+	font-weight: bold;
+}
+.cf-spark .price{
+	color: $textcolora;
+    min-width: 100px;
+    display: block;	
+}
+.cf-spark .fiat{
+	color: $textcolorb;
+}
+.cf-spark .ticker{
+	color: $textcolora;
+}
+.cf-spark .volume{
+	color: $textcolora;
+	font-size:12px;
+	margin-top: 3px;
+	display: inline-block;
+}
+
+.cf-spark .volume-text{
+	color: $textcolorb;
+}
+.heromover{
+	margin-top:73px !important;
+}

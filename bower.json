@@ -1,0 +1,19 @@
+{
+  "name": "coinfield",
+  "description": "Small description for coinfield goes here",
+  "main": "",
+  "authors": [
+    "Hakob Poghosyan <hakob.poghosyan.93@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CoinField/coinfield",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

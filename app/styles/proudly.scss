@@ -1,0 +1,106 @@
+
+.canada-icon-as-thmeify {
+  max-width: 47px;
+}
+
+.proudly-canadian {
+  position: fixed !important;
+  top: 19px;
+  right: 28px;
+  z-index: 999;
+  opacity: 1;
+  font-size: 12px;
+  padding: 6px 14px;
+  background: white;
+  color: #696767;
+  border-radius: 20px;
+  float: right;
+  img {
+    max-height: 16px;
+    margin-right: 10px;
+  }
+}
+
+.proudly-canadian-1 {
+  display: none;
+  font-size: 12px;
+  padding: 6px 14px;
+  background: white;
+  color: #696767;
+  border-radius: 20px;
+  margin-top: 30px;
+  img {
+    max-height: 16px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .proudly-canadian-text {
+    clear: both;
+    display: block;
+    font-size: 8px;
+    font-weight: 100;
+    margin-top: 5px;
+  }
+  .proudly-canadian {
+    img {
+      margin-right: 0px;
+    }
+    text-align: center;
+    background-color: $pallete_one;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: $cfgray;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .proudly-canadian-text {
+    /*display: none;*/
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 100;
+    margin-top: 5px;
+  }
+  .proudly-canadian {
+    img {
+      margin-right: 3px;
+      max-height: 10px;
+    }
+    text-align: left;
+    position: absolute !important;
+    top: 52px;
+    right: 18px;
+    background-color: $pallete_one;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: $cfgray;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .proudly-canadian {
+    display: none;
+  }
+  .proudly-canadian-1 {
+    display: inline-block;
+  }
+  .proudly-canadian-text {  
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 4px;
+  }
+
+}
